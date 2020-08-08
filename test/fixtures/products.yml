@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  proce: 
+  price: 1
   vendor: MyString
 
 two:
   name: MyString
-  proce: 
+  price: 1
   vendor: MyString

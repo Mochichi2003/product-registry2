@@ -15,7 +15,7 @@ class ProductsTest < ApplicationSystemTestCase
     click_on "New Product"
 
     fill_in "Name", with: @product.name
-    fill_in "Proce", with: @product.proce
+    fill_in "Price", with: @product.price
     fill_in "Vendor", with: @product.vendor
     click_on "Create Product"
 
@@ -28,7 +28,7 @@ class ProductsTest < ApplicationSystemTestCase
     click_on "Edit", match: :first
 
     fill_in "Name", with: @product.name
-    fill_in "Proce", with: @product.proce
+    fill_in "Price", with: @product.price
     fill_in "Vendor", with: @product.vendor
     click_on "Update Product"
 
